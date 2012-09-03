@@ -19,7 +19,7 @@ syn match tlibEvent "\<\(Event\|Request\)[A-Z][a-zA-Z]*"
 syn match tlibEventAttribute "\<Attribute[A-Z][a-zA-Z]*"
 
 syn match time "^@\=\([01]\=[0-9]\|2[0-3]\):[0-5][0-9]:[0-5][0-9]\(.[0-9]*\)\="
-syn match gsip "^\<gsip:[-_A-Za-z0-9~:/;.,={}<> ()\[\]]*"
+syn match gsip "^\<gsip:[-_A-Za-z0-9~:/;.,={}<> ()\[\]@]*"
 
 
 
