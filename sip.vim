@@ -31,6 +31,5 @@ highlight link sipHeader	Function
 highlight link tlibEvent	Function
 highlight link tlibEventAttribute StorageClass 
 
-
 highlight link time		PreProc
 highlight link gsip		Special	
