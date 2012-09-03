@@ -13,7 +13,7 @@ syn keyword sipRequest INFO MESSAGE NOTIFY OPTIONS PRACK REFER UPDATE
 "syn match sipRequest "^[A-Z]*"
 syn match sipAddress "\<sip:[-a-zA-Z0-9_:@&?=+,.!/~+%$]*\>"
 syn match sipResponse "^SIP/2.0\s[0-9]\{3\} [A-Za-z]*"
-syn match sipHeader "^[A-Z][A-Z]\?[a-z]*\(-[A-Za-z]*\)\?\(-[A-Za-z]*\)\?:"
+syn match sipHeader "^[A-Z][A-Z]\?[a-z]*\(-[A-Za-z]*\)*:"
 
 syn match tlibEvent "\<\(Event\|Request\)[A-Z][a-zA-Z]*"
 syn match tlibEventAttribute "\<Attribute[A-Z][a-zA-Z]*"
